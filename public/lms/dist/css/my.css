@@ -1,0 +1,126 @@
+
+/*ul li code color*/
+
+.treeview a{
+  background-color:#461A00!important;
+  color:white;
+}
+.treeview ul li a{
+  background-color:#331300!important;
+  color:white;
+}
+
+.treeview a:hover{
+  background-color:#BB5214!important;
+  color:white;
+}
+.apanel{
+  background-color: #521606!important;
+  color:white;
+}
+.abtn{
+  background-color: #521606!important;
+  color:white;
+}
+.areset{
+  background-color:#9E4816!important;
+  color:white;
+}
+
+#back{
+margin-top: 97px;
+
+}
+
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 4px!important;
+    margin-bottom: 2px!important;}
+
+  #my.form-horizontal .control-label {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: left!important;
+}
+
+/* My customizable code for color*/
+.skin-blue .main-header .navbar {
+    background-color:#521606!important;
+}
+.skin-blue .main-header .logo {
+    background-color: #521606!important;
+}
+.skin-blue .main-header li.user-header {
+    background-color: #521606!important;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #BB5214!important;
+}
+
+
+
+/* sidebar color*/
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #461A00!important;
+
+}
+.skin-blue .sidebar-form input[type="text"], .skin-blue .sidebar-form .btn {
+
+    background-color: #461A00!important;}
+.skin-blue .sidebar-menu>li.header {
+    color: #FFFFFF!important;
+    background: #461A00!important;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+
+    border-left-color: #DEDEDE!important;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    background: #461A00 !important;
+}
+
+/*pagination code for color*/
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+
+    background-color: #461A00;
+    border-color: #461A00;
+}
+/*font style*/
+.astyle{
+  font-family:'Times New Roman';
+  color:white;
+}
+.atable{
+background-color:#9C5A48!important;
+font-family:'Times New Roman'!important;
+color:white!important;
+}
+
+
+.star{
+
+  color:#9E4816!important;
+
+}
+/*  dari masterpage style code*/
+
+
+.main-sidebar, .left-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    min-height: 100%;
+    width: 230px;
+    z-index: 810;
+    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+    transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+/*backward script*/
+.back{
+  color:white;
+  margin-left: 11px;
+  margin-top: 13px;
+}
