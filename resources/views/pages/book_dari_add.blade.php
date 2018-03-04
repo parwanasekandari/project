@@ -51,13 +51,14 @@
           </div>
           <div class="form-group">
           <div class="col-sm-11">
-            <select class="form-control col-md-12  " dir="rtl" name="category">
-               <option>انتخاب کنید<option>
+            <select class="form-control col-md-12  " dir="rtl" name="category" id="category">
+               <option value="null">انتخاب کنید<option>
               <option value="English">English</option>
               <option value="دری">دری</option>
               <option value="پشتو">پشتو</option>
               <option value="عربی">عربی</option>
             </select>
+            <span id="category-error" class="text-danger" hidden>لطفا کتگوری را انتخاب کنید!</span>
             </div>
 
             <label class="control-label control-label col-sm-1" for="first-name">کتگوری<span class="required">*</span>
@@ -109,8 +110,8 @@
 
           <div class="form-group">
           <div class="col-sm-11">
-            <select class="form-control col-md-7 " dir="rtl" name="shelf_no">
-              <option>انتخاب تاقچه </option>
+            <select class="form-control col-md-7 " dir="rtl" name="shelf_no" id="shelf_no">
+              <option value="null">انتخاب تاقچه </option>
               <option value="الف">الف</option>
               <option value="ب">ب</option>
               <option value="پ">پ</option>
@@ -140,8 +141,8 @@
               <option value="ن">ن</option>
               <option value="و">و</option>
               <option value="ی">ی</option>
-
             </select>
+            <span id="shelf-no-error" class="text-danger" hidden>لطفا نمبر طاقچه را انتخاب کنید!</span>
           </div>
           <label class="control-label col-sm-1" for="isbn">تاقچه</label>
           </div>
