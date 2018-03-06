@@ -52,13 +52,14 @@
              </label>
              <div class="col-md-7 col-sm-7 col-xs-12">
 
-               <select class="form-control col-md-7 col-xs-12 " dir="ltr" name="category">
-                    <option>Choose<option>
+               <select class="form-control col-md-7 col-xs-12 " dir="ltr" name="category" id="category">
+                <option value="null">Choose<option>
                  <option value="English">English</option>
                  <option value="Dari">دری</option>
                  <option value="Pashto">پشتو</option>
                  <option value="Arabi">عربی</option>
                </select>
+               <span id="category-error" class="text-danger" hidden>Please choose category</span>
              </div>
            </div>
            <div class="form-group">
@@ -120,9 +121,9 @@
              </label>
              <div class="col-md-7 col-sm-7 col-xs-12">
 
-               <select   class="form-control col-md-7 " dir="ltr" name="shelf_no">
+               <select   class="form-control col-md-7 " dir="ltr" name="shelf_no" id="shelf_no">
 
-                 <option>Choose Shelf<option>
+                 <option value="null">Choose Shelf<option>
                  <option value="A">A</option>
                  <option value="B">B</option>
                  <option value="C">C</option>
@@ -156,7 +157,7 @@
                  <option value="Gh">Gh</option>
 
                </select>
-
+               <span id="shelf-no-error" class="text-danger" hidden>Please choose Shelf number</span>
              </div>
            </div>
 
